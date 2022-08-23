@@ -8,10 +8,11 @@ import { IProduct } from '../product/product';
   providedIn: 'root'
 })
 export class ProductService {
+  private ApiUrl = 'https://progettofinale-backend.herokuapp.com';
 
-  private _url = environment.apiUrl + '/api/products';
-  private cart_url = environment.apiUrl + '/api/cart';
-  private orders_url = environment.apiUrl + '/api/order';
+  private _url = this.ApiUrl + '/api/products';
+  private cart_url = this.ApiUrl + '/api/cart';
+  private orders_url = this.ApiUrl + '/api/order';
 
   constructor(private http:HttpClient) { }
 
