@@ -1,4 +1,32 @@
 # FullstackProject - Frontend
+# Fullstack Project
+
+![Alt text](image.png "image")
+
+This project is basically a kind of prototype of a simple ecommerce with also backoffice.
+
+## Link
+https://finalproject-frontend.netlify.app
+
+## Getting Started
+Open the "fullstack_project" file and in the terminal run `nmp install` then run `ng serve` command in the terminal. Then open your favorite browser and go to this link (http://localhost:4200/) (verify output of terminal and take exactly port number) . 
+
+## Tools Used
+
+Node npm
+
+Angular
+
+Laravel
+
+JWT
+
+
+## Usage
+
+The usage is very simple, first of all register or log in, then you can see the products, you can add it to cart, you can order them and in the backoffice you can add new product or modify them, or even delete them.
+
+## Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
