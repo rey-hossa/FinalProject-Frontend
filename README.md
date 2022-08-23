@@ -1,5 +1,4 @@
 # FullstackProject - Frontend
-# Fullstack Project
 
 ![Alt text](image.png "image")
 
